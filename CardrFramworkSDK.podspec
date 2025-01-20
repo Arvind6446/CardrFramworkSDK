@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'CardrCustomFramwork'
-  spec.version      = '1.0.1'
-  spec.homepage     = 'https://github.com/Arvind6446/CardrCustomFramwork'
+  spec.name         = 'CardrFramworkSDK'
+  spec.version      = '1.0.2'
+  spec.homepage     = 'https://github.com/Arvind6446/CardrFramworkSDK.git'
   spec.authors      = { 'Arvind' => 'arvind@cardr.com' }
   spec.summary      = 'Base interface for OBDIQ devices'
   spec.description  = <<-DESC
@@ -10,14 +10,19 @@ Pod::Spec.new do |spec|
                       DESC
 
   spec.license      = { :type => 'Proprietary', :text => 'All rights reserved.' }
-  spec.source       = { :git => 'https://github.com/Arvind6446/CardrCustomFramwork.git', :tag => spec.version }
+  spec.source       = { :git => 'https://github.com/Arvind6446/CardrFramworkSDK.git', :tag => spec.version }
 
   # Define platform
   spec.platform     = :ios, '16.1'
-  spec.source_files = 'CardrCustomFramwork/**/*.{h,m,swift}'
-  
-  # Corrected dependency declaration
-  spec.dependency 'RepairClubSDK', '~> 1.2.08'
-   # Ensure ARC is enabled
-  spec.requires_arc = true
+
+  # Specify the XCFramework
+# spec.source = { :path => '.' }
+ spec.source_files = 'CardrFramworkSDK/**/*.{h,m,swift}'
+
+spec.dependency 'RepairClubSDK', '~> 1.2.08'
+
+
+spec.requires_arc = true
+
+  # Exclude source files for binary-only distribution
 end
