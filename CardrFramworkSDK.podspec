@@ -16,10 +16,10 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '16.1'
 
   # Specify the XCFramework
- spec.source = { :path => '.' }
+# spec.source = { :path => '.' }
  spec.source_files = 'CardrCustomFramwork/**/*.{h,m,swift}'
-  spec.dependency   = 'RepairClubSDK', '~> 1.2.08'
 
+spec.dependency 'RepairClubSDK', '~> 1.2.08'
 
 
 spec.requires_arc = true
