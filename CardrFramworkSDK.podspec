@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   # Specify the XCFramework
 # spec.source = { :path => '.' }
- spec.source_files = 'CardrCustomFramwork/**/*.{h,m,swift}'
+ spec.source_files = 'CardrFramworkSDK/**/*.{h,m,swift}'
 
 spec.dependency 'RepairClubSDK', '~> 1.2.08'
 
