@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F42397511C13B37E790C233B57508935"
-               BuildableName = "Pods_CardrFramworkSDK.framework"
-               BlueprintName = "Pods-CardrFramworkSDK"
+               BlueprintIdentifier = "3DB0C987D13714608350F1627481F762"
+               BuildableName = "Pods_CardrCustomFramwork.framework"
+               BlueprintName = "Pods-CardrCustomFramwork"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

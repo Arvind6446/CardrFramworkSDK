@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CardrFramworkSDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CardrFramworkSDKVersionString[];
+FOUNDATION_EXPORT double Pods_CardrCustomFramworkVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_CardrCustomFramworkVersionString[];
 
