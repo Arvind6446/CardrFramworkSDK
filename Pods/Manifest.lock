@@ -1,0 +1,16 @@
+PODS:
+  - RepairClubSDK (1.2.08)
+
+DEPENDENCIES:
+  - RepairClubSDK (= 1.2.08)
+
+SPEC REPOS:
+  trunk:
+    - RepairClubSDK
+
+SPEC CHECKSUMS:
+  RepairClubSDK: 20ec2546d2cd7273cc16e1d6803d5d8b51d94fee
+
+PODFILE CHECKSUM: b953b3b365c19463e4f1855fdf1bccc24b35305b
+
+COCOAPODS: 1.16.2
